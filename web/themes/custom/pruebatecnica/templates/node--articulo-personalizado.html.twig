@@ -1,0 +1,14 @@
+{{ attach_library('pruebatecnica/prueba') }}
+
+<div id="imagenCabecera">
+  {{content.field_imagen_de_cabecera}}
+</div>
+<div id="descripción">
+  {{content.body}}
+</div>
+<div id="hashtags">
+  <div id="tituloHashtags">Hashtags relacionados:</div>
+  {% for row in node.field_hashtags %}
+    <span class="hashtags">#{{ row.value }}</span>
+  {% endfor %}
+</div>

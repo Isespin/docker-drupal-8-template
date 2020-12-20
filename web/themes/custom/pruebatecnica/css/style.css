@@ -1,0 +1,76 @@
+/*************************************************/
+/*************** detalle articulos ***************/
+/*************************************************/
+#hashtags{
+  border: 1px solid #e5e5e5;
+  background-color:#efefef;
+}
+div#tituloHashtags {
+    font-weight: bold;
+    padding: 0.5em;
+}
+div#hashtags {
+    border: 1px solid #e5e5e5;
+    background-color: #efefef;
+    margin: 1em 0 2em 0;
+    padding-bottom: 1em;
+}
+span.hashtags {
+    padding: 1em;
+    font-style: italic;
+}
+
+/*************************************************/
+/*************** listado articulos ***************/
+/*************************************************/
+.views-field.views-field-field-imagen-de-cabecera {
+    float: left;
+    padding: 0em 1em 1em 0em;
+}
+.views-row {
+    margin-top: 2em;
+    background-color: #f3f3f3;
+    padding: 0.5em;
+    border: 1px solid #e5e5e5;-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+}
+.views-row:hover{
+  border: 1px solid #e5e5e5;-webkit-box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.75);
+}
+.field.field--name-field-imagen-de-cabecera.field--type-image.field--label-above {
+    max-width: 500px;
+    float: left;
+    padding: 0 1em 1em 0;
+}
+.field--name-body, #imagenCabecera{
+  margin-top: 1em;
+}
+.field--name-field-imagen-de-cabecera .field--label, .region.region-header {
+    display: none;
+}
+.views-field.views-field-title {
+    font-weight: bold;
+    font-size:1.5em;
+}
+#sinElementos{
+    margin-top: 1em;
+    Font-size: 1.5em;
+    background-color: #efefef;
+    padding: 1em;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #337ab7;
+}
+/************************************/
+/*************** menú ***************/
+/************************************/
+nav#block-pruebatecnica-account-menu {
+    float: right;
+}
+nav#block-pruebatecnica-main-menu {
+    float: left;
+}
